@@ -1,10 +1,10 @@
 import streamlit as st
-from dotenv import load_dotenv
+
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_groq import ChatGroq
 
-load_dotenv()
+
 st.set_page_config(page_title="AI Fitness Coach Pro", page_icon="Dumbbell", layout="centered")
 
 # ===== NEUMORPHISM CSS START =====
